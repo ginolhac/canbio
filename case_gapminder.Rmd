@@ -17,7 +17,7 @@ ggplot2::theme_set(ggplot2::theme_bw(14))
 
 ### [Rmd on gitlab](https://git) {.box-8 .offset-2 .intro .outline .xx-large .center-text}
 
-[http://tinyurl.com/gap_canbio](https://gino)
+[https://tinyurl.com/gap-canbio](https://ginolhac.github.io/canbio/case_gapminder.html)
 
 
 ## Learning objectives {.vs2}
