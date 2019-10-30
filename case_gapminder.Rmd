@@ -93,8 +93,8 @@ mtcars %>%
 ## Guided practical | explore gapminder {.slide-practical .vs3}
 
 ```{r, echo = FALSE}
-countdown::countdown(minutes = 3L, blink_colon = TRUE, update_every = 10,
-                     padding = "25px", margin = "5%", right = "33%",
+countdown::countdown(minutes = 5L, blink_colon = TRUE, update_every = 10,
+                     padding = "25px", margin = "5%", right = "5%",
                      color_finished_background = "red",
                      color_running_background = "#CAE1FF")
 ```
@@ -291,7 +291,7 @@ by_country_lm %>%
 ## Explore nested tibble {.slide-practical .vs3}
 
 ```{r, echo = FALSE}
-countdown::countdown(minutes = 5L, blink_colon = TRUE, update_every = 10,
+countdown::countdown(minutes = 6L, blink_colon = TRUE, update_every = 10,
                      padding = "25px", margin = "5%", right = "33%",
                      color_finished_background = "red",
                      color_running_background = "#CAE1FF")
@@ -337,11 +337,11 @@ $r^2$ is close to 0, linearity sounds broken
 ![](img/11/broom.jpg)
 
 
-## Tidying models | extract from nested lists {.slide-practical .vs2}
+## Tidying models | extract from nested lists {.slide-practical}
 
 ```{r, echo = FALSE}
 countdown::countdown(minutes = 6L, blink_colon = TRUE, update_every = 10,
-                     padding = "25px", margin = "5%", right = "33%",
+                     padding = "25px", margin = "5%", right = "0%", bottom = "10%",
                      color_finished_background = "red",
                      color_running_background = "#CAE1FF")
 ```
@@ -358,7 +358,7 @@ countdown::countdown(minutes = 6L, blink_colon = TRUE, update_every = 10,
 - save as `models`
 - why extracting the $r^2$ in the main tibble is useful?
 
-### reminder {.box-10 .offset-1 .warning .outline}
+### reminder {.box-9 .warning .outline}
 
 - use `map` when dealing with a list column 
 - in `map`, shortcut with quotes (like `"r.squared"`) extract the specified variable
@@ -396,7 +396,7 @@ models
 ## plotting $r^2$ for countries{.slide-practical .vs1}
 
 ```{r, echo = FALSE}
-countdown::countdown(minutes = 4L, blink_colon = TRUE, update_every = 10,
+countdown::countdown(minutes = 5L, blink_colon = TRUE, update_every = 10,
                      padding = "25px", margin = "5%", right = "33%",
                      color_finished_background = "red",
                      color_running_background = "#CAE1FF")
