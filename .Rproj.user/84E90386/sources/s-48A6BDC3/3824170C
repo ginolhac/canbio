@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572440612885.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "550604164",
+    "id" : "3824170C",
+    "lastKnownWriteTime" : 1572441834,
+    "last_content_update" : 1572441834258,
+    "path" : "~/Projects/Canbio/tidy_purrr.Rmd",
+    "project_path" : "tidy_purrr.Rmd",
+    "properties" : {
+        "cursorPosition" : "1323,0",
+        "scrollLine" : "1289"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
